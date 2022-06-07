@@ -3,6 +3,7 @@ require("@nomiclabs/hardhat-etherscan")
 require("dotenv").config()
 require("./tasks/block-number")
 require("hardhat-gas-reporter")
+require("solidity-coverage")
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
